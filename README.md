@@ -3,6 +3,7 @@
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![Dependencies: none](https://img.shields.io/badge/runtime%20dependencies-none-brightgreen)
+![tests](https://github.com/Soroush-dp/optimization-algorithms/actions/workflows/tests.yml/badge.svg)
 
 Two classic optimization problems, implemented cleanly in plain Python with a command line interface, charts, a test suite and benchmarks.
 
@@ -111,7 +112,7 @@ Brute force grows factorially while the dynamic program stays fast. At 14 places
 Requires Python 3.10 or newer.
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Soroush-dp/optimization-algorithms.git
 cd optimization-algorithms
 pip install -e ".[dev]"      # pytest + matplotlib; use ".[plot]" for plots only
 ```
