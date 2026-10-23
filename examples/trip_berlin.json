@@ -1,0 +1,18 @@
+{
+  "max_time": 300,
+  "places": {
+    "Brandenburg Gate": 30,
+    "Reichstag": 75,
+    "Museum Island": 120,
+    "Checkpoint Charlie": 40,
+    "East Side Gallery": 60,
+    "Berlin Cathedral": 45
+  },
+  "distances": {
+    "Brandenburg Gate": {"Reichstag": 10, "Museum Island": 20, "Checkpoint Charlie": 25, "East Side Gallery": 45, "Berlin Cathedral": 22},
+    "Reichstag": {"Museum Island": 25, "Checkpoint Charlie": 30, "East Side Gallery": 50, "Berlin Cathedral": 27},
+    "Museum Island": {"Checkpoint Charlie": 25, "East Side Gallery": 35, "Berlin Cathedral": 5},
+    "Checkpoint Charlie": {"East Side Gallery": 30, "Berlin Cathedral": 22},
+    "East Side Gallery": {"Berlin Cathedral": 32}
+  }
+}
